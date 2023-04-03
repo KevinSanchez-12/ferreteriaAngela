@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary: #F0932B;
+    --secondary: #D63031;
+    --tertiary: #4CD137;
+    --quaternary: #FFFF00;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 1rem;
+}
+
+.max-container {
+    width: 98%;
+    max-width: 1850px;
+    margin: auto;
+    padding: 0;
+}
+
+.btn-opcion {
+    width: 100% !important;
+    height: 60px !important;
+}
