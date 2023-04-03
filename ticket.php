@@ -38,7 +38,7 @@
     $pdf->MultiCell(0,5,utf8_decode($sede),0,'C',false);
     $pdf->MultiCell(0,5,utf8_decode("RUC: 10153654307"),0,'C',false);
     $pdf->MultiCell(0,5,utf8_decode("De: Marlene Padilla Malasquez"),0,'C',false);
-    $pdf->MultiCell(0,5,utf8_decode("Celular: 987654321"),0,'C',false);
+    $pdf->MultiCell(0,5,utf8_decode("Celular: 987424313"),0,'C',false);
     $pdf->Ln(1);
     $pdf->Cell(0,5,utf8_decode("-------------------------------------------------------------"),0,0,'C');
     $pdf->Ln(5);
